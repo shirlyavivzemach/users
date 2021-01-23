@@ -1,0 +1,33 @@
+.user-app{
+    .text-muted.mt-5{
+text-align: center;
+    }
+}
+.spinner {
+    animation: spin 2s linear infinite;
+  }
+  .inifinite-scroll {
+    text-align: center;
+  }
+  .loading {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

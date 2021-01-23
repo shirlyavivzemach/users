@@ -1,0 +1,11 @@
+.nav-bar{
+display: flex;
+  padding:20px;
+  background-color: rgb(231, 231, 231) ;
+  border-bottom: rgb(59, 59, 59);
+  align-items: center;
+  .MuiSvgIcon-root {
+      margin-right: 20px;
+      font-size:2rem;
+  }
+}

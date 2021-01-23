@@ -1,0 +1,9 @@
+.user-preview{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .ui.card:last-child{
+        margin-bottom: 20px;
+    }
+}
